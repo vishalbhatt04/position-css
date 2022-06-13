@@ -1,0 +1,67 @@
+body {
+    margin: 10px;
+    font-size: 25px;
+    overflow: scroll;
+    background-color: darkgrey;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.static {
+    position: static;
+    background-color: aqua;
+    color: red;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.relative {
+    position: relative;
+    background-color: aquamarine;
+    color: darkmagenta;
+    border: 2px solid darkmagenta;
+    z-index: -1;
+    padding: 10px;
+}
+
+#relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border: 2px solid purple;
+    background-color: chartreuse;
+    padding: 10px;
+}
+
+.fixed {
+    position: fixed;
+    background-color: darksalmon;
+    color: black;
+    border: 2px crimson solid;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.fix {
+    position: fixed;
+    bottom: 55px;
+    right: 60px;
+    padding: 10px;
+}
+
+.more {
+    position: fixed;
+    bottom: 50px;
+    left: 20px;
+    border: 2px solid rebeccapurple;
+    color: black;
+    background-color: cornflowerblue;
+    padding: 10px;
+}

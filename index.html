@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position in CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Static Position</h1>
+    <div class="static">
+        <p>This is a block level element with the position property of static.</p>
+    </div>
+    <h1>Relative Position</h1>
+    <div class="relative">
+        <p>This is also a block level element with a z-index of -1.</p>
+        <span id="relative">This is an inline element with position relative to the block element above.</span>
+    </div>
+    <h1 class="fix">Fixed Position</h1>
+    <div class="fixed">
+        <p>This is a block level element with fixed position.</p>
+    </div>
+    <div class="more">
+        <p>{overflow: scroll;} property also used here.</p>
+    </div>
+</body>
+</html>
